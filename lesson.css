@@ -1,0 +1,16 @@
+p {color: green;
+  font-size: 25px;
+}
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+#super {
+  color: yellow;
+}
+
+p:first-child {
+  color: white;
+  background: green;
+}
