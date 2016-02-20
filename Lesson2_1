@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Task1</title>
+  </head>
+  <body>
+<h1>Задание №1 "Семантические теги"</h1>
+<p>Обозначить ошибку в тексте можно тегом del <del>(по умолчанию он будет перечеркнут)</del><br>
+  а вставленный текст — тегом ins <ins>(обозначается подчеркиванием)</ins><br>
+  Несмотря на то, что это строчные теги (не разрывают строки),<br>
+   внутри них допускается размещение блочных элементов <br>
+   <dfn>термин, впервые определяемый в документе</dfn><br>
+   <code><h1>Welcome to GOIT LESSONS</h1>
+     <h2 title="Go Frontend">Lessons GOFE</h2>
+     <h3>Header Third level</h3>
+     <h4>Header Four level</h4>
+     <h5>It too much for me, to do this!))</h5></code><br>
+     <samp><script type="text/javascript">
+    document.write ('<table width="100%" border="1">');
+    for (i=1; i<6; i++) {
+      document.writeln("<tr>");
+      for (j=1; j<6; j++) document.write("<td>" + i + j + "<\/td>");
+      document.writeln("<\/tr>");
+    }
+    document.write ("<\/table> ");
+  </script></samp><br>
+</p>
+<p>
+  <kbd>название клавиш или набираемого на клавиатуре текста &lt;Alt&gt;+&lt;Delete&gt; <br>
+    Чтоб войти в меню <ins>перезагрузки</ins>, нажмите сочитание клавиш: &lt;Ctlr&gt;+&lt;Alt&gt;+&lt;Delete&gt;</kbd>
+</p>
+<p>
+  <q cite="http://www.serialkuhnya.tv/citaty-iz-seriala-kuhnya.html">Обиженная женщина способна на любые поступки, кроме адекватных.</q><br>
+  <blockquote cite="http://www.serialkuhnya.tv/citaty-iz-seriala-kuhnya.html">
+    Я понял одну важную вещь: что бы с тобой не случилось днём,<br>
+    главное чтобы вечером было куда вернуться-туда где тебе рады,<br>
+    потому что нет ничего хуже одиночества.<br>
+  </blockquote>
+</p>
+<p>
+  Тег <strong>mark</strong> предназначен для <mark>выделения</mark> фрагментов текста в контексте действий пользователя, даже если они не <br>
+  выделяются в оригинале. Например, им можно обозначать слова, соответствующие поисковому запросу или ошибки <br>
+  во вводимых пользователем данных. Оформление содержимого элементов определяется в таблицах стилей.<br>
+</p>
+<p>
+  Для <abbr title="солово">аббревиатур</abbr> и акронимов предназначен тег abbr.<br>
+   Обычно его снабжают всплывающей подсказкой с помощью глобального атрибута title,<br>
+    в котором указывают расшифрованное значение.<br>
+</p>
+  </body>
+</html>
